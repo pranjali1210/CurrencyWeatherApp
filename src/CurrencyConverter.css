@@ -1,9 +1,10 @@
-body {
+.currency-converter-body{
     font-family: Arial, sans-serif;
     color: #555;
     overflow-y: auto;
     background: linear-gradient(135deg, #ffdd57, #ffa801, #7bed9f, #00d2ff);
     animation: moving-background 20s linear infinite;
+    height: 100vh;
   
   }
   
@@ -79,11 +80,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    flex-direction: row;
   }
   
   .country-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 10px;
     border: 1px solid #ccc;
